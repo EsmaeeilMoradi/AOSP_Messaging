@@ -101,6 +101,11 @@
       <item name="android:background">?android:attr/selectableItemBackground</item>
     </style>
 
+<!--    <style name="BuglePhotoViewTheme" parent="PhotoViewTheme.Translucent">-->
+<!--        <item name="actionModeShareDrawable">@drawable/ic_share_light</item>-->
+<!--    </style>-->
+
+
     <style name="BuglePhotoViewTheme" parent="PhotoViewTheme.Translucent">
         <item name="actionModeShareDrawable">@drawable/ic_share_light</item>
     </style>

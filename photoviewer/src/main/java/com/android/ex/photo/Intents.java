@@ -60,9 +60,9 @@ public class Intents {
      * @param context The context
      * @return The intent builder
      */
-    public static PhotoViewIntentBuilder newPhotoViewActivityIntentBuilder(Context context) {
-        return new PhotoViewIntentBuilder(context, PhotoViewActivity.class);
-    }
+//    public static PhotoViewIntentBuilder newPhotoViewActivityIntentBuilder(Context context) {
+//        return new PhotoViewIntentBuilder(context, PhotoViewActivity.class);
+//    }
 
     /**
      * Gets a photo view intent builder to display the photo view fragment
@@ -191,7 +191,7 @@ public class Intents {
         }
 
         /** Sets the resolved photo URI. This method is for the case
-         *  where the URI given to {@link PhotoViewActivity} points directly
+         *  where the URI given to {@link } points directly
          *  to a single image and does not need to be resolved via a query
          *  to the {@link ContentProvider}. If this value is set, it supersedes
          *  {@link #setPhotosUri(String)}. */
