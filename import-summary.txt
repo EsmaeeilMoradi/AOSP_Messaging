@@ -1,0 +1,97 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Android.mk
+* CleanSpec.mk
+* ForceProguard.mk
+* Messaging_AOSP/
+* Messaging_AOSP/.git/
+* Messaging_AOSP/.git/HEAD
+* Messaging_AOSP/.git/config
+* Messaging_AOSP/.git/description
+* Messaging_AOSP/.git/hooks/
+* Messaging_AOSP/.git/hooks/README.sample
+* Messaging_AOSP/.git/index
+* Messaging_AOSP/.git/info/
+* Messaging_AOSP/.git/info/exclude
+* Messaging_AOSP/.git/logs/
+* Messaging_AOSP/.git/logs/HEAD
+* Messaging_AOSP/.git/logs/refs/
+* Messaging_AOSP/.git/logs/refs/heads/
+* Messaging_AOSP/.git/logs/refs/heads/main
+* Messaging_AOSP/.git/objects/
+* Messaging_AOSP/.git/objects/0f/
+* Messaging_AOSP/.git/objects/0f/7e5eaeee15f1dd18cef5da0c8c5d143b17c15f
+* Messaging_AOSP/.git/objects/26/
+* Messaging_AOSP/.git/objects/26/4e31bdbc1c2f1f0087629e5a70582317451595
+* Messaging_AOSP/.git/objects/db/
+* Messaging_AOSP/.git/objects/db/cb491c16eb17b0529edd4735b30448c1bc3d3e
+* Messaging_AOSP/.git/refs/
+* Messaging_AOSP/.git/refs/heads/
+* Messaging_AOSP/.git/refs/heads/main
+* Messaging_AOSP/README.md
+* OWNERS
+* build/
+* build/README
+* build/android_lint.mk
+* build/android_lint.xslt
+* build/colorize_errors.py
+* build/gcheckstyle.mk
+* build/gcheckstyle/
+* build/gcheckstyle/google-style-checker_deploy.jar
+* build/gcheckstyle/tools/
+* build/gcheckstyle/tools/java/
+* build/gcheckstyle/tools/java/checkstyle/
+* build/gcheckstyle/tools/java/checkstyle/googlestyle-5.0.xml
+* build/process_style_output.py
+* jni/
+* jni/Android.bp
+* jni/GifTranscoder.cpp
+* jni/GifTranscoder.h
+* proguard-release.flags
+* proguard-test.flags
+* proguard.flags
+* tests/
+* tests/Android.mk
+* tests/AndroidTest.xml
+* tools/
+* tools/buglesql
+* tools/dumpapkversion.sh
+* tools/messagegen/
+* tools/messagegen/fillsms
+* tools/messagegen/listimages
+* tools/mmssql
+* version.mk
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/android/messaging/ui/mediapicker/camerafocus/README.txt => app/src/main/resources/com/android/messaging/ui/mediapicker/camerafocus/README.txt
+* tests/src/ => app/src/androidTest/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
